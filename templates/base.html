@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin-Cancer-Detection</title>
+    <link rel="icon" href="https://image.shutterstock.com/image-vector/cancer-icon-vector-illustration-600w-1018618561.jpg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+    <style>
+        img {
+            border-radius: 20px;
+        }
+
+        .nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .nav li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: rgb(240, 102, 10);
+        }
+
+        li {
+            float: left;
+        }
+
+        .foo {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .foo {
+            width: 100%;
+            background-color: #555;
+            overflow: auto;
+        }
+
+        .foo ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .foo li {
+            float: left;
+            padding: 12px;
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+            width: 25%;
+            text-align: center;
+        }
+
+        .tech li {
+            float: none;
+        }
+    </style>
+</head>
+
+<body style="background-color: aliceblue;">
+    <div class="nav">
+        <ul>
+            <li><a class="active" href="/">Home</a></li>
+            <li><a href="/">Image</a></li>
+            <li><a href="/tech">Technology</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/"
+                    style="color:rgb(240, 102, 10); ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skin-Cancer-Detection
+                    </a></li>
+
+        </ul>
+    </div>
+    {% block image %}
+    {% endblock %}
+
+</body>
+
+</html>
